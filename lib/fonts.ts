@@ -1,0 +1,60 @@
+export const cyberpunkFonts = {
+  default: {
+    name: "Rajdhani",
+    description: "Clean & Modern",
+    headingClass: "font-rajdhani",
+    bodyClass: "font-rajdhani",
+    monoClass: "font-mono",
+    cssVariable: "--font-rajdhani",
+  },
+  orbitron: {
+    name: "Orbitron",
+    description: "Classic Cyberpunk",
+    headingClass: "font-orbitron",
+    bodyClass: "font-rajdhani",
+    monoClass: "font-space-mono",
+    cssVariable: "--font-orbitron",
+  },
+  exo: {
+    name: "Exo 2",
+    description: "Futuristic Clean",
+    headingClass: "font-exo",
+    bodyClass: "font-exo",
+    monoClass: "font-space-mono",
+    cssVariable: "--font-exo",
+  },
+  audiowide: {
+    name: "Audiowide",
+    description: "Retro Future",
+    headingClass: "font-audiowide",
+    bodyClass: "font-rajdhani",
+    monoClass: "font-space-mono",
+    cssVariable: "--font-audiowide",
+  },
+  electrolize: {
+    name: "Electrolize",
+    description: "Digital Matrix",
+    headingClass: "font-electrolize",
+    bodyClass: "font-electrolize",
+    monoClass: "font-space-mono",
+    cssVariable: "--font-electrolize",
+  },
+  michroma: {
+    name: "Michroma",
+    description: "Bold Cyber",
+    headingClass: "font-michroma",
+    bodyClass: "font-rajdhani",
+    monoClass: "font-space-mono",
+    cssVariable: "--font-michroma",
+  },
+  spaceMono: {
+    name: "Space Mono",
+    description: "Terminal Style",
+    headingClass: "font-space-mono",
+    bodyClass: "font-space-mono",
+    monoClass: "font-space-mono",
+    cssVariable: "--font-space-mono",
+  },
+}
+
+export type FontName = keyof typeof cyberpunkFonts
